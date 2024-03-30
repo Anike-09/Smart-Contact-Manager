@@ -1,0 +1,13 @@
+.hiden
+{
+    width:5088% ;
+    height: 50000%;
+    background-image:url(/static/img/mypic.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    padding-top: 60ch;
+    overflow: hidden;
+    margin-top: 50px;
+    
+} 

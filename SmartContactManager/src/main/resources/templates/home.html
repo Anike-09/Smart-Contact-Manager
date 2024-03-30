@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>this is home page</title>
+
+
+</head>
+<body>
+
+	<section class="card-list mt-4 mb-4">
+     
+     <div>
+     <img src="img/mypic.png" width="550px" height="490px" margin-left:40px>
+     </div>
+     
+     
+     <div class="login-box ">
+
+  <form>
+  <h1></h1>
+  <img src="img/Backround.jpg" width="140px" height="80px" style="margin-left:110px"/>
+  <hr>
+  <h4 style="text-align:center;  font-weight: bold">Welcome To Our Software</h4>
+  <hr>
+  <h6 style="color: white">Sign Up, Login And Save Your Contacts On Cloud..</h6>
+    <a th:href="@{/signup}" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      JOIN US
+    </a>
+  </form>
+</div>
+  
+	</section>
+
+</body>
+</html>
